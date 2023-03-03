@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -16,6 +26,7 @@
         android:src="@drawable/chochorro" />
 
     <EditText
+        android:drawableEnd="@drawable/baseline_person"
         android:padding="15dp"
         android:layout_below="@+id/imgchochorro"
         android:id="@+id/edtusuario"
@@ -24,6 +35,7 @@
         android:hint="Usuario" />
 
     <EditText
+        android:drawableEnd="@drawable/baseline_lock"
         android:padding="15dp"
         android:layout_below="@+id/edtusuario"
         android:id="@+id/edtenha"
@@ -52,3 +64,4 @@
         android:text="Sair" />
 
 </RelativeLayout>
+</LinearLayout>

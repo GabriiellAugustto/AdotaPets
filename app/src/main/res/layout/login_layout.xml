@@ -4,36 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login_Activity">
+    tools:context=".Login_Activity"
+    android:background="#6C9829">
 
     <ImageView
+        android:layout_marginLeft="120dp"
+        android:scaleType="centerCrop"
         android:id="@+id/imgchochorro"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/chochorro" />
 
     <EditText
+        android:padding="15dp"
+        android:layout_below="@+id/imgchochorro"
         android:id="@+id/edtusuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Usuario" />
 
     <EditText
+        android:padding="15dp"
+        android:layout_below="@+id/edtusuario"
         android:id="@+id/edtenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Senha" />
 
     <Button
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/edtenha"
         android:id="@+id/btnentrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Entrar" />
 
     <Button
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
         android:id="@+id/btnsair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/edtenha"
+
+        android:layout_toRightOf="@+id/btnentrar"
         android:text="Sair" />
 
 </RelativeLayout>

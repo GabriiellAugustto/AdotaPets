@@ -43,8 +43,16 @@
         android:layout_height="wrap_content"
         android:hint="Senha" />
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/edtenha">
+
+
     <Button
-        android:layout_marginLeft="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
         android:layout_marginTop="30dp"
         android:layout_below="@+id/edtenha"
         android:id="@+id/btnentrar"
@@ -53,7 +61,8 @@
         android:text="Entrar" />
 
     <Button
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
         android:layout_marginTop="30dp"
         android:id="@+id/btnsair"
         android:layout_width="wrap_content"
@@ -62,6 +71,8 @@
 
         android:layout_toRightOf="@+id/btnentrar"
         android:text="Sair" />
+
+</LinearLayout>
 
 </RelativeLayout>
 </LinearLayout>

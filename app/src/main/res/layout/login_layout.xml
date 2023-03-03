@@ -18,6 +18,7 @@
     android:background="#6C9829">
 
     <ImageView
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="120dp"
         android:scaleType="centerCrop"
         android:id="@+id/imgchochorro"
